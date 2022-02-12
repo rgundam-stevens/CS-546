@@ -1,0 +1,17 @@
+<section class="section">
+
+    {{#if character}}
+    <h1> Characters Found</h1>
+    <h2> <span class="searchTerm">{{searchTerm}}</span></h2>
+    <ul class="comicc">
+        {{#each character}}
+        <li> <a href="/characters/{{this.id}}">{{this.name}}</a></li>
+        {{/each}}
+    </ul>
+    {{/if}}
+    {{#unless character}}
+    <p class="not-found"> We're sorry, but no results were found for {{searchTerm}}<span class="searchTerm"
+            {{searchTerm}}> </span></p>
+    {{/unless}}
+    <h3> <a href="/"> Make another search</a></h3>
+</section>

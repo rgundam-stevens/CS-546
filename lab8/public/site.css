@@ -1,0 +1,103 @@
+h1 {
+    justify-content: center;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 2rem;
+}
+
+h2 {
+    justify-content: center;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: rgba(24, 194, 224, 0.829);
+}
+
+.form {
+    justify-content: center;
+}
+
+.charactername {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 2rem;
+    color: rgba(17, 13, 236, 0.707);
+}
+
+.description {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.des {
+    color: rgba(17, 13, 236, 0.707);
+}
+
+.comicc {
+    background-color: bisque;
+}
+
+.comics {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 1rem;
+    line-height: 1;
+    color: #090116ee;
+}
+
+.head {
+    text-align: center;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 2rem;
+    color: rgba(71, 5, 5, 0.707);
+}
+
+.error {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    color: rgb(230, 20, 48);
+}
+
+.text {
+    line-height: 2;
+    text-align: center;
+    text-decoration: overline;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    color: rgb(20, 2, 2);
+}
+
+.form {
+    margin: 40px 400px 40px 600px;
+    line-height: 2;
+    height: 200px;
+    width: 200px;
+    font-size: 14pt;
+    text-align: center;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    color: rgba(128, 128, 128, 0.37);
+}
+
+.para {
+    margin: 40px 400px 40px 400px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    color: rgba(8, 2, 2, 0.932);
+    background-color: bisque;
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+img {
+    border-radius: 2px;
+    height: 400px;
+    width: 400px;
+    margin: 10px 40px 10px 40px;
+}
+
+.button {
+    font-size: 15px;
+    background-color: rgb(150, 155, 158);
+    border: rgb(34, 150, 218);
+    text-align: center;
+    line-height: 2;
+}

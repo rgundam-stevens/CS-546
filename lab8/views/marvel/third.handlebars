@@ -1,0 +1,26 @@
+<div class="character">
+    <h1 class="charactername"> {{character.name}} </h1>
+    <img alt="{{character.name}}" src="{{character.url1}}">
+    {{#if character.description}}
+    <p class="description"> {{character.description}} </p>
+    {{/if}}
+    {{#unless character.description}}
+    <p> No Description to display</p>
+    {{/unless}}
+    <br>
+    <h2 class="des">
+        Comics
+    </h2>
+    {{#if character.comics}}
+    <ul class="comics">
+        {{#each character.comics}}
+        <li>
+            {{this}}
+        </li>
+        {{/each}}
+    </ul>
+    {{/if}}
+    {{#unless character.comics}}
+    <p> No comics to display</p>
+    {{/unless}}
+</div>

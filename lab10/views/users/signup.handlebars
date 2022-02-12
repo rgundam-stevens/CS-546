@@ -1,0 +1,17 @@
+<article class="background">
+    {{#if error}}
+    <h5>{{error}}</h5>
+    {{/if}}
+    <form class="formdeco" id="signup-form" method="post" action="/signup">
+        <label for="username">Username</label>
+        <input id="username" type="text" name="username" placeholder="username" />
+
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" placeholder="password" />
+
+        <button id="signup-button" type="submit">Signup</button>
+    </form>
+    <br>
+    <br>
+    <a href="/">Already have an account? Click here to log-in</a>
+</article>

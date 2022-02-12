@@ -1,0 +1,17 @@
+{
+  "name": "cs-546-lab-5",
+  "version": "1.0.0",
+  "description": "My lab 5 module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Varun G 10477305",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.23.0"
+   
+  }
+}

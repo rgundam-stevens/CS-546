@@ -1,0 +1,19 @@
+{
+  "name": "cs-546-lab-11",
+  "version": "1.0.0",
+  "description": "My lab 11",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Varun_G_10477305",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "response": "^0.18.0",
+    "xss": "^1.0.8",
+    "axios": "^0.24.0",
+    "express-session": "^1.17.2"
+  }
+}
